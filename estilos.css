@@ -1,0 +1,268 @@
+body {
+    background-color: #c88383;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #195c46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imagenes {
+    height: 350px;
+    width: 50%;
+    border: 2px solid #195c46;
+}
+.imagenDerecha {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.imagenDerecha2{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    margin-right: 120px;
+}
+.imagenRegistro{
+    height: 300px;
+    padding-right: 150px;
+    padding-top: 80px;
+}
+.botonRegistro{
+    background-color: #7ae1bf;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border: 2px solid #195c46; 
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.button{
+    background-color: #195c46;
+    color: #c88383;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    border: 2px solid #7ae1bf;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forms form {
+    margin-right: 20px;
+  }
+.forms form input {
+    cursor: pointer;
+}
+.formularios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formularios form{
+    border: 2px solid #7ae1bf;
+    background-color: #195c46;
+    padding: 10px;
+    color: #fff;
+    
+}
+.formularios form label{
+    display: inline-block;
+    width: 170px;
+  }
+
+#carrusel-caja {
+    -moz-animation: automatizacion 15s infinite linear;
+    -o-animation: automatizacion 15s infinite linear;
+    -webkit-animation: automatizacion 15s infinite linear;
+    animation: automatizacion 15s infinite linear;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 400px;
+    width: 300%;
+}
+#carrusel-contenido {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+.carrusel-elemento {
+    float: left;
+    width: 33.333%;
+}
+@-moz-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@-webkit-keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+@keyframes automatizacion {
+    0% {
+        margin-left: 0;
+    }
+    30% {
+        margin-left: 0;
+    }
+    35% {
+        margin-left: -100%;
+    }
+    65% {
+        margin-left: -100%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+    95% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: 0;
+    }
+}
+h1, h2 {
+    background-color: #195c46;
+    color: #c88383;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    border: 1px solid #7ae1bf;
+
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonForms {
+    cursor: pointer;
+    background-color: #195c46;
+    color: #f3f3f3;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    border: 2px solid #7ae1bf;
+    text-decoration: none;
+    text-align: center;
+}
+
+.divUser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userBox {
+    color: #f3f3f3; 
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #195c46;
+    border: 2px solid #7ae1bf;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+table {
+    color: #f3f3f3 ;
+    width: 100%;
+    background-color: #195c46;
+    border: 2px solid #7ae1bf;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 2px solid #7ae1bf;
+    text-align: center;
+}
+
+
+.icoTabla {
+    width: 25px;
+    text-align: center;
+}
+
+.TD_icoTabla {
+    width: 100px;
+}
+

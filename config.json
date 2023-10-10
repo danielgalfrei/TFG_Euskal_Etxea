@@ -1,0 +1,8 @@
+{
+  "bbddConf": {
+      "servername": "localhost",
+      "username": "root",
+      "password": "",
+      "dbname": "reservas_euskal_etxea"
+  }
+}
